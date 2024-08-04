@@ -1,0 +1,77 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(poping.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10 px 10%;
+    overflow: hidden;
+}
+.content{
+   width: 100%;
+   position: absolute;
+   top: 30%;
+   transform: translateY(-50%);
+   transform: translateX(0%);
+   text-align: center;
+}
+.content h1{
+    font-size: 80px;
+    color: black;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body
+{
+    font-family: "Itim", cursive;
+}
+.content a{
+    background-color: black;
+    background: transparent;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 18px 50px;
+    font-size: 30px;
+    background: black;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid black;
+    background: black;
+    transition: 1s;
+    color: aliceblue;
+}
+//*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: #f8d6ed;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.card img{
+    width:100%;
+    height:auto;
+}
+body{
+    background-color: #fdf4cb;
+}//

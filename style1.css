@@ -1,0 +1,79 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Get\ start!!!\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header h3{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    transform: translateY(160%);
+}
+.header p{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 160px; 
+   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card-container h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: -40px;
+    background-color:#FFDAEC;
+    border-radius: 10px;
+    box-shadow: #fd92c6;
+}
+.card{
+    width: 300px;
+    background-color: #fdf4cb;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+}
+.card img{
+    width:100%;
+    height:auto;
+    border-radius: 20px;
+}
+body{
+    background-color: #fdf4cb;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 140px;
+    font-size: 20px;
+    background: rgb(159, 187, 247);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    
+}
+.btn:hover{
+    border: 1px solid #fff;
+    background:rgb(237, 178, 245) ;
+    transition: 1s;
+    color: #fff;
+}
+.hero{
+    background-image: url(poping.jpg);
+}
